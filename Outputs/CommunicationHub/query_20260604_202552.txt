@@ -1,0 +1,70 @@
+Subject: Preliminary Audit Findings - [Client Company Name] - [Reporting Period, e.g., FY2018]
+
+Dear [Client Contact Name],
+
+We hope this email finds you well.
+
+Following our review of your financial records for the [Reporting Period, e.g., fiscal year ended December 31, 2018], we have identified a few preliminary items that require your attention and clarification to ensure the accuracy and completeness of your financial statements and compliance with relevant regulations.
+
+Please find a summary of our findings below, along with the information we require to proceed:
+
+---
+
+**1. GST Mismatches / Possible Duplicate Transactions**
+We have identified several transactions that appear to be duplicates within your records. These could lead to inaccuracies in your GST reporting and overall financial position.
+
+*   **Examples include:**
+    *   Cost of Sales for amounts such as -1120, -4371, -395, -884.
+    *   Credit Sales for amounts such as 2948, 14570.
+    *   Cash Sales for amount 3734.
+    *   Inventory Purchase for amount 20000.
+    *   Purchase of intangibles assets for amount 30000.
+    *   Share Issue for amount 800000.
+    *   Cash expenses for amount -44.
+
+*   **Action Required:** Please review these transactions and confirm whether they are indeed duplicates. If not, please provide an explanation for their multiple occurrences.
+
+---
+
+**2. Uncoded / Unclassified High-Value Transactions**
+Several high-value transactions have been noted that either lack sufficient detail or appear to be uncoded, making it difficult to ascertain their exact nature and proper accounting treatment.
+
+*   **Examples include:**
+    *   Purchase of equipment with amounts such as 600,000.0 and 840,000.0.
+    *   Share Issue with amounts such as 800,000.0 and 1,040,000.0.
+    *   Sale of asset with amounts such as 240,000.0 and 241,500.0.
+
+*   **Action Required:** For each of these transactions, please provide supporting documentation (e.g., invoices, contracts, bank statements) and clarify the correct account coding and classification.
+
+---
+
+**3. Negative Amounts Detected in Asset/Expense Accounts**
+We have observed several instances where asset or expense accounts show negative balances. While some negative entries can be valid (e.g., credit notes), persistent negative balances in these types of accounts often indicate an error in recording.
+
+*   **Examples include:**
+    *   Cost of Sales with negative amounts such as -884.0, -1120.0, -4371.0.
+    *   Credit Expenses with amount -2394.0.
+    *   Bank to Cash transfer with amount -15000.0.
+    *   Purchase of equipment with amount -600000.0.
+    *   Cash expenses with amount -44.0.
+
+*   **Action Required:** Please review these entries and provide an explanation for the negative amounts. If they are errors, please advise on the corrective actions taken or proposed.
+
+---
+
+**4. Missing Invoices**
+At this stage, we have not identified any specific missing invoices.
+
+---
+
+We kindly request that you provide the requested information and clarifications by [Suggested Date, e.g., two weeks from now]. This will allow us to complete our audit procedures efficiently and finalize our report.
+
+Please do not hesitate to contact us if you have any questions or require further details regarding these findings. We are available to discuss these items at your convenience.
+
+Thank you for your prompt attention to this matter.
+
+Sincerely,
+
+The Audit Team
+[Your Firm Name]
+[Your Contact Information]
