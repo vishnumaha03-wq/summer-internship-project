@@ -1,15 +1,22 @@
 import os
+from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 
+# Load the environment variables from your secret .env file
+load_dotenv()
 
 def draft_queries(all_findings):
+    # Safely pull your API key from the environment
+    api_key_val = os.getenv("GEMINI_API_KEY")
 
+    # Initialize the model using the updated 3.6-flash engine and pass the key explicitly
     llm = ChatGoogleGenerativeAI(
-    model="gemini-3.6-flash",
-    temperature=0,
-    google_api_key="AQ.Ab8RN6I6sWEuhZ1QML_LXTcY30tsHW1uy0DMvbe1hf2QYJgRWg"
-)
+        model="gemini-3.6-flash",
+        temperature=0,
+        max_retries=6,
+        google_api_key=api_key_val
+    )
 
     prompt = ChatPromptTemplate.from_messages([
         (
@@ -48,7 +55,7 @@ def draft_queries(all_findings):
     ])
 
     chain = prompt | llm
-
+    print("Sending findings to Gemini API now, waiting for response...")
     response = chain.invoke(
         {
             "findings": all_findings

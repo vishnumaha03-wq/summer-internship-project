@@ -1,3 +1,8 @@
+import os
+from dotenv import load_dotenv
+
+# Force load the environment variables at the absolute start
+load_dotenv()
 import streamlit as st
 import pandas as pd
 
