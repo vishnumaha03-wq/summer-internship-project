@@ -10,14 +10,14 @@ from database import (
 )
 
 st.set_page_config(
-    page_title="Bank Issue Detection System",
+    page_title="My Custom Audit AI",
     layout="wide"
 )
 
-st.title("🏦 Bank Issue Detection System")
+st.title("🔍 My Custom Audit AI")
 
 uploaded_file = st.file_uploader(
-    "Upload Ledger File",
+    "Drop your client's Excel or CSV file right here!",
     type=["xlsx", "xls", "csv"]
 )
 
@@ -49,7 +49,7 @@ if uploaded_file is not None:
     )
 
     if st.button(
-        "Run Issue Detection"
+        "Analyze the Data Now"
     ):
 
         with st.spinner(
@@ -86,7 +86,7 @@ if uploaded_file is not None:
 
             # Save report to database
             save_report(
-                report
+               str(report)
             )
 
         st.success(

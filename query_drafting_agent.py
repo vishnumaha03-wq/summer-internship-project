@@ -6,12 +6,10 @@ from langchain_core.prompts import ChatPromptTemplate
 def draft_queries(all_findings):
 
     llm = ChatGoogleGenerativeAI(
-        model="gemini-2.5-flash",
-        temperature=0,
-        google_api_key=os.getenv(
-            "GOOGLE_API_KEY"
-        )
-    )
+    model="gemini-3.6-flash",
+    temperature=0,
+    google_api_key="AQ.Ab8RN6I6sWEuhZ1QML_LXTcY30tsHW1uy0DMvbe1hf2QYJgRWg"
+)
 
     prompt = ChatPromptTemplate.from_messages([
         (

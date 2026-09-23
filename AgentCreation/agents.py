@@ -1,7 +1,7 @@
 # =========================================================
 # Issue Detection Logic (Adapted For Your Ledger Dataset)
 # =========================================================
-
+from typing import List, Dict, Any
 def check_missing_invoices(gl_data: List[Dict[str, Any]]) -> List[str]:
     """
     Issue 1:
